@@ -21,3 +21,10 @@ function getCurrencySymbolFromCode (USD){
 }
 const getCurrency = getCurrencySymbolFromCode (`$`);
 console.log (getCurrency) ;
+
+// 3
+function firstSentence (MY, NAME, IS, JOHN){
+    return `my name is jonh`
+}
+const secondSentence = firstSentence (`my name is jonh`)
+console.log (secondSentence);
