@@ -28,3 +28,15 @@ function firstSentence (MY, NAME, IS, JOHN){
 }
 const secondSentence = firstSentence (`my name is jonh`)
 console.log (secondSentence);
+
+// 4
+function getArray(luwiArray) {
+    const result = luwiArray.filter(number => number % 2 == 0);
+    console.log(result);
+}
+
+luwiArray = [3, 5, 6, 8, 11, 18, 20];
+getArray(luwiArray);
+
+// 5
+// --
